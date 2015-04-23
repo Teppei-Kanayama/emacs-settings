@@ -1,0 +1,6 @@
+(global-set-key "\M-g" 'goto-line)
+(global-set-key "\C-h" 'backward-delete-char)
+(add-to-list 'load-path "/home/mech-user/.emacs.d/emacs-trr/")
+(setq byte-compile-current-file nil)
+(setq TRR:record-dir "/home/mech-user/.emacs.d/emacs-trr/")
+(require 'trr)
